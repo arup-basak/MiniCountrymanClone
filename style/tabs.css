@@ -1,0 +1,22 @@
+input[type=radio] {
+    display: none;
+}
+input[type=radio] + label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 1rem;
+}
+input[type=radio] ~ .tabs {
+    display: none;
+}
+
+#five_seats_tab:checked ~ .tabs#five_seats_tab_content,
+#three_seats_tab:checked ~ .tabs#three_seats_tab_content,
+#two_seats_tab:checked ~ .tabs#two_seats_tab_content {
+    display: block;
+}
+
+
+input[type=radio]:hover + label:hover {
+    background-color: #0000004b;
+}

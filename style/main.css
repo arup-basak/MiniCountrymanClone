@@ -1,0 +1,103 @@
+@font-face {
+    font-family: medium;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: light;
+    src: url(../fonts/Poppins-Thin.ttf);
+}
+
+@font-face {
+    font-family: bold;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: medium_italic;
+    src: url(../fonts/Poppins-MediumItalic.ttf);
+}
+
+* {
+    font-family: medium;
+    /* background-color: rgb(201, 130, 130); */
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#landing_banner {
+    /* background: url(../images/car_banner.jpg); */
+    background-repeat: no-repeat;
+    width: 100%;
+    /* height: 472px; */
+}
+
+button {
+    transition-delay: 0.1s;
+    transition: 0.3s;
+    cursor: pointer;
+    padding: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#main_button {
+    background-color: inherit;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#main_button:hover {
+    background-color: #000000a2;
+}
+
+.configure_button {
+    background-color: #000;
+    color: #fff;
+}
+
+.configure_button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.nav_button {
+    color: #000;
+    height: fit-content;
+    padding: 1rem;
+    user-select: none;
+    font-family: light;
+}
+
+.nav_button:hover {
+    transition: 0.3s;
+    background-color: #00000013;
+}
+
+#brand_logo {
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+
+section {
+    height: 110vh;
+}
+
+p {
+    color: #000;
+    font-family: medium_italic;
+}
+
+#section_heading {
+    font-family: bold;
+}
+
